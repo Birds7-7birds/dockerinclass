@@ -5,7 +5,7 @@ services:
     image: birds7/timback
     environment:
       STUDENT_ID: "A01229374"
-      STUDENT_NAME: "xavier el chantiry"
+      STUDENT_NAME: "xavier"
       
 
   nginx:
