@@ -1,14 +1,12 @@
 
 FROM python:3
 
-RUN mkdir /app 
-
-WORKDIR /app
 
 RUN pip install flask
-RUN apt-get  update -y
-RUN apt-get install -y wget wait-for-it
+RUN apt-get update -y
 
+RUN mkdir /app 
+WORKDIR /app
 COPY ./app .
 
 EXPOSE 5000

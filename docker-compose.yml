@@ -6,7 +6,6 @@ services:
     environment:
       STUDENT_ID: "A01229374"
       STUDENT_NAME: "xavier"
-      
 
   nginx:
     image: birds7/timfront
